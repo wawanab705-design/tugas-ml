@@ -190,7 +190,7 @@ def format_rupiah_compact(angka):
 # === 5. Input pengguna ===
 st.sidebar.header("Masukkan Tanggal Kunjungan")
 bulan = st.sidebar.selectbox('Bulan', options=list(range(1, 13)), index=0)
-hari_dlm_bulan = st.sidebar.selectbox('Hari dalam Bulan', options=list(range(1, 32)), index=0)
+hari_dlm_bulan = st.sidebar.selectbox('Hari dalam Bulan / Tanggal', options=list(range(1, 32)), index=0)
 
 # Validasi tanggal
 tanggal_valid = True
