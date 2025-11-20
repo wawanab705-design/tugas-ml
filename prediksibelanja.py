@@ -13,7 +13,7 @@ st.markdown("Berdasarkan data historis Januari–Juni 2025")
 # === 1. Baca dataset ===
 @st.cache_data
 def load_data():
-    file_path = r'D:\Kuliah S2\tugas\tugas1\prediksibiaya\lap_belanja_jan-juni2025.csv'
+    file_path = r'lap_belanja_jan-juni2025.csv'
     
     if not os.path.exists(file_path):
         st.error(f"File tidak ditemukan: {file_path}")
