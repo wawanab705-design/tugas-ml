@@ -472,7 +472,7 @@ if st.session_state.predict_clicked:
             st.markdown('</div>', unsafe_allow_html=True)
 
 # === 7. Tampilkan Data dan Grafik ===
-
+st.markdown('<div class="elegant-card">', unsafe_allow_html=True)
 st.header("Statistik Data Lengkap")
 
 # Row 1: Basic Stats
@@ -555,7 +555,7 @@ with col9:
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Tampilkan nilai lengkap dalam expander
-st.markdown('<div class="elegant-card">', unsafe_allow_html=True)
+
 with st.expander("Detail Nilai Lengkap"):
     st.write("**Nilai Lengkap Tanpa Pemendekan:**")
     
