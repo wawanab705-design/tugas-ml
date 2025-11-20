@@ -519,4 +519,4 @@ if len(df[df['biaya'] < 0]) > 0:
     st.info(f"**Catatan:** Terdapat **{len(df[df['biaya'] < 0]):,} transaksi negatif** ({(len(df[df['biaya'] < 0])/len(df)*100):.1f}%) yang mungkin merupakan refund atau koreksi transaksi.")
 
 st.markdown("---")
-st.caption("© 2025 Prediksi Belanja Pasien — Berbasis Akumulasi Data Historis")
+st.caption("© 2025 Prediksi Belanja Pasien — Berbasis Akumulasi Data Historis || UTS Machine Learning - Magister Informatika UII")
