@@ -212,7 +212,7 @@ st.markdown("""
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-header">
-        <h2>Kontrol Panel</h2>
+        <h2>Tugas Machine Learning</h2>
         <p>Kelola prediksi dan analisis</p>
     </div>
     """, unsafe_allow_html=True)
