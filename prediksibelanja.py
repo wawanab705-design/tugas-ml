@@ -239,7 +239,7 @@ with st.sidebar:
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Quick Stats di Sidebar
-    st.markdown('<div class="elegant-card">', unsafe_allow_html=True)
+
     st.markdown("""
     <div style="text-align: center;">
         <p><strong>Data Historis</strong><br>Jan - Jun 2025</p>
