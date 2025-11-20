@@ -190,7 +190,7 @@ st.markdown("""
 # ===== HEADER ELEGAN =====
 st.markdown("""
 <div class="header-container">
-    <h1 style="margin:0; font-size: 3rem; font-weight: 700;">Prediksi Biaya Belanja Pasien Rumah Sakit</h1>
+    <h2 style="margin:0; font-size: 3rem; font-weight: 700;">Prediksi Biaya Belanja Pasien Rumah Sakit</h2>
     <p style="margin:0; font-size: 1.3rem; opacity: 0.9; margin-top: 1rem;">
         Berbasis Analisis Data Historis Januari–Juni 2025
     </p>
