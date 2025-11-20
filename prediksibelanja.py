@@ -220,7 +220,7 @@ with st.sidebar:
     st.markdown('<div class="elegant-card">', unsafe_allow_html=True)
     st.header("Masukkan Tanggal Kunjungan")
     bulan = st.selectbox('**Bulan**', options=list(range(1, 13)), index=0)
-    hari_dlm_bulan = st.selectbox('**Hari dalam Bulan**', options=list(range(1, 32)), index=0)
+    hari_dlm_bulan = st.selectbox('**Hari dalam Bulan / Tanggal**', options=list(range(1, 32)), index=0)
     
     # Validasi tanggal
     tanggal_valid = True
