@@ -8,8 +8,8 @@ Aplikasi Prediksi Biaya Belanja Pasien Rumah Sakit adalah sebuah sistem berbasis
 -	Menampilkan data mentah seperti id_transaksi, id_pasien, dokter, jenis_layanan, poli, biaya, dll.
 
 # 2.	Data Preparation & Preprocessing
-1.	Rename kolom
-    Kolom-kolom diubah menjadi nama yang mudah dipahami, seperti: id_transaksi, id_pasien, dokter , dsb.
+1.	Rename kolom.
+   Kolom-kolom diubah menjadi nama yang mudah dipahami, seperti: id_transaksi, id_pasien, dokter , dsb.
 
 3.	Convert tanggal
     Kolom waktu dikonversi ke datetime.
