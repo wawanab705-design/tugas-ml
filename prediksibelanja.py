@@ -240,7 +240,6 @@ with st.sidebar:
     
     # Quick Stats di Sidebar
     st.markdown('<div class="elegant-card">', unsafe_allow_html=True)
-    st.markdown("### Quick Stats")
     st.markdown("""
     <div style="text-align: center;">
         <p><strong>Data Historis</strong><br>Jan - Jun 2025</p>
