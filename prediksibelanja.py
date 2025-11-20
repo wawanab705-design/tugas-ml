@@ -764,7 +764,7 @@ if len(df[df['biaya'] < 0]) > 0:
 # ===== FOOTER ELEGAN =====
 st.markdown("""
 <div class="footer">
-    <h3>Prediksi Belanja Pasien</h3>
+    <h3>Prediksi Belanja Pasien Rumah Sakit</h3>
     <p>Berbasis Akumulasi Data Historis | UTS Machine Learning - Magister Informatika UII</p>
     <p style="opacity: 0.8; margin-top: 1rem;">© 2025 Advanced Healthcare Analytics Dashboard</p>
 </div>
