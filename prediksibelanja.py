@@ -215,7 +215,7 @@ if st.sidebar.button("Prediksi Belanja", type="primary"):
             prediksi = match.iloc[0]['rata_rata_biaya']
             jumlah_data = int(match.iloc[0]['count'])
             
-            st.success(f"**Perkiraan Biaya Belanja: {format_rupiah_display(prediksi)}**")
+            st.success(f"**Perkiraan Biaya Belanja per Pasien: {format_rupiah_display(prediksi)}**")
             st.info(f"Berdasarkan **{jumlah_data} transaksi** pada tanggal **{hari_dlm_bulan}/{bulan}** dalam data historis.")
             
             # Tampilkan visualisasi
